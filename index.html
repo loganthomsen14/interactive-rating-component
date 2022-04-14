@@ -20,7 +20,7 @@
 
   <!-- Rating state start -->
 
-<div class="fullCard">
+<div class="fullCard" id="rating">
   <div class="cardContent">
     <div class="icon-div">
       <img src="images/icon-star.svg" alt="star icon" class="icon">
@@ -38,7 +38,7 @@
         <button class="button5 btn">5</button>
       </div>
       <div class="submit-btn">
-        <button class="submit" type="submit">Submit</button>
+        <button id="submit" class="submit" type="submit">Submit</button>
       </div>
     </div>
   </div>
@@ -48,12 +48,20 @@
 
   <!-- Thank you state start -->
 
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+<div class="fullCard" id="thanks">
+  <div class="cardContent">
+    <div class="thanks-img">
+      <img src="images/illustration-thank-you.svg" alt="thank you illustration" id="thanks">
+    </div>
+    <div class="rating">
+      <p class="text">You selected <!-- Add rating here --> out of 5</p>
+    </div>
+    <div class="cardText">
+      <h2 class="title">Thank you!</h2>
+      <p class="text">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+    </div>
+  </div>
+</div>
 
   <!-- Thank you state end -->
 
@@ -62,5 +70,8 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/loganthomsen14" target="_blank">Logan Thomsen</a>.
   </div>
+
+  <script src="index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </body>
 </html>

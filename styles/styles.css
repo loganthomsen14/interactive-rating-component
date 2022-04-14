@@ -22,6 +22,13 @@ body {
     background: linear-gradient(20deg, hsl(216, 12%, 8%), hsl(213, 19%, 18%));
 }
 
+#thanks {
+    /* display: none; */
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
 .icon-div {
     height: 50px;
     width: 50px;
